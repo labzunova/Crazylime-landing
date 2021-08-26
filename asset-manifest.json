@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Crazylime-landing/static/css/main.4a87e82c.chunk.css",
-    "main.js": "/Crazylime-landing/static/js/main.6bcee216.chunk.js",
-    "main.js.map": "/Crazylime-landing/static/js/main.6bcee216.chunk.js.map",
+    "main.css": "/Crazylime-landing/static/css/main.0a174b6b.chunk.css",
+    "main.js": "/Crazylime-landing/static/js/main.512892ce.chunk.js",
+    "main.js.map": "/Crazylime-landing/static/js/main.512892ce.chunk.js.map",
     "runtime-main.js": "/Crazylime-landing/static/js/runtime-main.c66e780e.js",
     "runtime-main.js.map": "/Crazylime-landing/static/js/runtime-main.c66e780e.js.map",
     "static/js/2.28b56b21.chunk.js": "/Crazylime-landing/static/js/2.28b56b21.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2220581a.chunk.js": "/Crazylime-landing/static/js/3.2220581a.chunk.js",
     "static/js/3.2220581a.chunk.js.map": "/Crazylime-landing/static/js/3.2220581a.chunk.js.map",
     "index.html": "/Crazylime-landing/index.html",
-    "static/css/main.4a87e82c.chunk.css.map": "/Crazylime-landing/static/css/main.4a87e82c.chunk.css.map",
+    "static/css/main.0a174b6b.chunk.css.map": "/Crazylime-landing/static/css/main.0a174b6b.chunk.css.map",
     "static/js/2.28b56b21.chunk.js.LICENSE.txt": "/Crazylime-landing/static/js/2.28b56b21.chunk.js.LICENSE.txt",
     "static/media/Diana-sizes.20e83c2f.jpg": "/Crazylime-landing/static/media/Diana-sizes.20e83c2f.jpg",
     "static/media/Diana.99a1abcc.jpg": "/Crazylime-landing/static/media/Diana.99a1abcc.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.c66e780e.js",
     "static/js/2.28b56b21.chunk.js",
-    "static/css/main.4a87e82c.chunk.css",
-    "static/js/main.6bcee216.chunk.js"
+    "static/css/main.0a174b6b.chunk.css",
+    "static/js/main.512892ce.chunk.js"
   ]
 }
