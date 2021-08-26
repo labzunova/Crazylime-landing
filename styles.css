@@ -1,0 +1,145 @@
+:root {
+	--pink: #CC5B88;
+	--green: #00A57B;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.main-block{
+	width: 100%;
+	height: 100%;
+	background: url(bg.jpg);
+	background-repeat: repeat;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.center-flex-container{
+	width: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center-flex-container{
+	width: 100%;
+	text-align: center;
+
+}
+
+.block {
+	display: block;
+}
+
+.rainbow-line{
+	height: 4px;
+}
+
+.link-catalog {
+	color: var(--pink);
+	text-decoration: none;
+	font-size: 200%;
+}
+
+.link-catalog:hover {
+	cursor: pointer;
+	color: var(--green);
+}
+
+
+.menu {
+	background: url(menu-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 55px;
+	padding-left: 30px;
+	padding-right: 10px;
+	vertical-align: middle;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.menu-element{
+	color: white;
+	margin-top: auto;
+	margin-bottom: auto;
+	flex-grow: 1;
+}
+
+.logo {
+	width: 15%;
+	top: 1%;
+}
+
+.section-green-name {
+	margin-top: 17px;
+	margin-bottom: 25px;
+	text-shadow: #808080 0 4px 4px ;
+	color: white;
+	vertical-align: middle;
+	z-index: 100;
+}
+
+.green-ribbon {
+	background: url(green-ribbon.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 70px;
+	width: 80%;
+}
+
+.section-pink-name {
+	margin-top: 12px;
+	margin-bottom: 25px;
+	text-shadow: #808080 0 4px 4px ;
+	color: white;
+	vertical-align: middle;
+	z-index: 100;
+}
+
+.pink-ribbon {
+	background: url(pink-ribbon.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 70px;
+	width: 80%;
+}
+
+.margin-bottom12{
+	margin-bottom: 12px;
+}
+
+.product-card{
+	margin: 16px;
+	cursor: pointer;
+} 
+
+.product-card:hover {
+	transform: scale(1.3);
+    transition: transform 0.3s;
+    z-index: 100;
+} 
+
+.product-text{
+	font-size: 200%;
+	color: var(--pink);
+}
+
+.text {
+	line-height: 1.5;
+}
