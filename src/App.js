@@ -24,15 +24,19 @@ function App() {
         <div className="col menu-element">
           Как заказать?
         </div>
+        <div src={star} className="col menu-element">●</div>
         <div className="col menu-element">
           Что в наличии?
         </div>
+        <div src={star} className="col menu-element">●</div>
         <div className="col menu-element">
           Доставка
         </div>
+        <div src={star} className="col menu-element">●</div>
         <div className="col menu-element">
           Таблицы размеров
         </div>
+        <div src={star} className="col menu-element">●</div>
         <div className="col menu-element">
           Гарантии
         </div>
@@ -50,9 +54,6 @@ function App() {
         </div>
 
         <div className="center-flex-container">
-          <img src={lime1} className="left-lime"/>
-          <img src={lime1} className="right-lime"/>
-
               <h3 className="center-allign" >
 			<span className="text">
 			Чтобы оформить заказ через Instagram, нужно:<br/>
@@ -61,6 +62,7 @@ function App() {
 			<br/>🍃Если Вы из региона, то отправим Вам почтой или в пункт выдачи Сдэк после оплаты в этот же или на следующий день
 			<br/>🍃Пришлем Вам трек для отслеживания посылки
 			</span>
+                <img src={lime1} className="right-top-lime"/>
 
               </h3>
         </div>
@@ -68,6 +70,8 @@ function App() {
 
         <img src={line} className="fullwidth rainbow-line" />
           <div className="center-flex-container">
+            <img src={lime1} className="left-top-lime"/>
+
             <div className="pink-ribbon">
               <h2 className="section-pink-name">Что в наличии?</h2>
             </div>
@@ -105,6 +109,8 @@ function App() {
 
           <img src={line} className="fullwidth rainbow-line" />
             <div className="center-flex-container">
+              <img src={lime1} className="right-top-lime"/>
+
               <div className="green-ribbon">
                 <h2 className="section-green-name">Доставка</h2>
               </div>
@@ -114,129 +120,129 @@ function App() {
               <h2>Москва и Санкт-Петербург</h2>
             </div>
             <div className="center-flex-container">
-            {/*  <div style="overflow-x: auto; overflow-y: hidden;">*/}
-            {/*    <table align="left" width="100%" cellSpacing="1" cellPadding="18" className="delivery_table">*/}
-            {/*      <tbody>*/}
-            {/*      <tr style="background-color: #c7c7c7; bording" align="center" valign="middle">*/}
-            {/*        <td style="padding: 2px; border: 1px solid black; text-align: center; width: 25%;">*/}
-            {/*          <b>СПОСОБ ДОСТАВКИ</b>*/}
-            {/*        </td>*/}
-            {/*        <td style="padding: 2px; border: 1px solid black; text-align: center; width: 25%;">*/}
-            {/*          <b>ГЕОГРАФИЯ ДОСТАВКИ</b>*/}
-            {/*        </td>*/}
-            {/*        <td style="padding: 2px; border: 1px solid black; text-align: center; width: 10%;">*/}
-            {/*          <b>СРОКИ</b>*/}
-            {/*        </td>*/}
-            {/*        <td style="padding: 2px; border: 1px solid black; text-align: center; width: 10%;">*/}
-            {/*          <b>ДОСТАВКА</b>*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; width: 10%;">*/}
-            {/*          <b>ОТ 6000 РУБ</b>*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      <tr align="center" valign="middle">*/}
-            {/*        <td style="border: 1px solid black; text-align: center;" scope="col" align="center" valign="middle">*/}
-            {/*          Самовывоз*/}
-            {/*          (СДЭК)*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center;" scope="col" align="center" valign="middle">*/}
-            {/*          Любой пункт самовывоза СДЭК*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          1-2 дня<br/>*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          180 руб*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          <span style="color: #9d0a0f;"><b>бесплатно</b></span>*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      <tr style="background-color: #e0e0e0;" align="center" valign="middle">*/}
-            {/*        <td rowSpan="4" style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          Курьером*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          до МКАД / КАД*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          1-2 дня<br/>*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          290 руб*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          <span style="color: #9d0a0f;"><b>бесплатно*</b></span>*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      <tr align="center" valign="middle">*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          за МКАД / КАД до 5км*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center;" >*/}
-            {/*          1-2 дня*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          390 руб*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          190 руб*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      <tr style="background-color: #e0e0e0;" align="center" valign="middle">*/}
-            {/*        <td style="border: 1px solid black; text-align: center;">*/}
-            {/*          за МКАД / КАД до 15км*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          1-2 дня*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          490 руб*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          290 руб*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      <tr align="center" valign="middle">*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          за МКАД / КАД до 23км (и Зеленоград)*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center;">*/}
-            {/*          1-2 дня*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          690 руб*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          490 руб*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      <tr align="center" valign="middle">*/}
-            {/*      </tr>*/}
-            {/*      <tr align="center" valign="middle">*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          Почта РФ (Обыкновенная посылка)*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          Любое почтовое отделение*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          3-5 дней*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          290 руб*/}
-            {/*        </td>*/}
-            {/*        <td style="border: 1px solid black; text-align: center; vertical-align: middle;">*/}
-            {/*          <span style="color: #9d0a0f;"><b>бесплатно</b></span>*/}
-            {/*        </td>*/}
-            {/*      </tr>*/}
-            {/*      </tbody>*/}
-            {/*    </table>*/}
-            {/*    <p>*/}
-            {/*      <span style="color: #a40c06;"> * Сумма выкупленного товара, не менее 6000 рублей. </span> То есть если*/}
-            {/*      вы заказали на сумму более 6000 руб, а выкупили на меньшую сумму, то доставка будет платной.*/}
-            {/*    </p>*/}
-            {/*  </div>*/}
+              <div className="table-overflow">
+                <table align="left" width="100%" cellSpacing="1" cellPadding="18" className="delivery_table">
+                  <tbody>
+                  <tr className="table-head" align="center" valign="middle">
+                    <td className="table-head-el">
+                      <b>СПОСОБ ДОСТАВКИ</b>
+                    </td>
+                    <td className="table-head-el">
+                      <b>ГЕОГРАФИЯ ДОСТАВКИ</b>
+                    </td>
+                    <td className="table-head-el">
+                      <b>СРОКИ</b>
+                    </td>
+                    <td className="table-head-el">
+                      <b>ДОСТАВКА</b>
+                    </td>
+                    <td className="table-head-el">
+                      <b>ОТ 6000 РУБ</b>
+                    </td>
+                  </tr>
+                  <tr align="center" valign="middle">
+                    <td scope="col" align="center" valign="middle">
+                      Самовывоз
+                      (СДЭК)
+                    </td>
+                    <td  scope="col" align="center" valign="middle">
+                      Любой пункт самовывоза СДЭК
+                    </td>
+                    <td >
+                      1-2 дня<br/>
+                    </td>
+                    <td >
+                      180 руб
+                    </td>
+                    <td >
+                      <span ><b>бесплатно</b></span>
+                    </td>
+                  </tr>
+                  <tr  align="center" valign="middle">
+                    <td rowSpan="4" >
+                      Курьером
+                    </td>
+                    <td >
+                      до МКАД / КАД
+                    </td>
+                    <td>
+                      1-2 дня<br/>
+                    </td>
+                    <td >
+                      290 руб
+                    </td>
+                    <td >
+                      <span ><b>бесплатно*</b></span>
+                    </td>
+                  </tr>
+                  <tr align="center" valign="middle">
+                    <td >
+                      за МКАД / КАД до 5км
+                    </td>
+                    <td >
+                      1-2 дня
+                    </td>
+                    <td >
+                      390 руб
+                    </td>
+                    <td >
+                      190 руб
+                    </td>
+                  </tr>
+                  <tr  align="center" valign="middle">
+                    <td >
+                      за МКАД / КАД до 15км
+                    </td>
+                    <td >
+                      1-2 дня
+                    </td>
+                    <td >
+                      490 руб
+                    </td>
+                    <td >
+                      290 руб
+                    </td>
+                  </tr>
+                  <tr align="center" valign="middle">
+                    <td >
+                      за МКАД / КАД до 23км (и Зеленоград)
+                    </td>
+                    <td >
+                      1-2 дня
+                    </td>
+                    <td >
+                      690 руб
+                    </td>
+                    <td >
+                      490 руб
+                    </td>
+                  </tr>
+                  <tr align="center" valign="middle">
+                  </tr>
+                  <tr align="center" valign="middle">
+                    <td >
+                      Почта РФ (Обыкновенная посылка)
+                    </td>
+                    <td >
+                      Любое почтовое отделение
+                    </td>
+                    <td >
+                      3-5 дней
+                    </td>
+                    <td >
+                      290 руб
+                    </td>
+                    <td >
+                      <span><b>бесплатно</b></span>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <p>
+                  <span > * Сумма выкупленного товара, не менее 6000 рублей. </span> То есть если
+                  вы заказали на сумму более 6000 руб, а выкупили на меньшую сумму, то доставка будет платной.
+                </p>
+              </div>
               <div className="center-flex-container">
                 <h2>По всей России (Предоплата - 100%)</h2>
               </div>
@@ -283,6 +289,8 @@ function App() {
                     </div>
                   </div>
                   <div className="center-flex-container">
+                    <img src={lime1} className="left-bottom-lime"/>
+
                     <h3 className="center-allign" >
 			<span className="text">
 				✔️Нашему магазину crazylime.ru в этом году 11 лет<br/>
